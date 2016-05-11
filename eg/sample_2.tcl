@@ -11,7 +11,7 @@ puts $g "MOL"
 set h [open "quantum_A.dat" "w"]
 
 
-set num_ori 200
+set num_ori [lindex $::argv 1]
 
 set count 0
 
